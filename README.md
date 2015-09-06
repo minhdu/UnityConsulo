@@ -14,3 +14,5 @@ https://github.com/consulo/consulo-unity3d/wiki/1.-Setup-and-Usage
 - For OSX User: You can open correct line of script by double click on Unity Debug Console as Window version without any setup!
 
 *Know issues: Consulo now open but not focus, please click on Consulo icon on dock to focus it!
+
+*This plugin base on UniVSCode of @robin7331 at https://github.com/robin7331/UniVSCode
