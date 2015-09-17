@@ -87,7 +87,12 @@ public class UnityConsulo : MonoBehaviour
 
 	static void BringConsuloToFront()
 	{
-		Process.Start("open", "-b \"org.mustbe.consulo\"");
+		Process proc = new Process();
+		proc.StartInfo.FileName = "open";
+		proc.StartInfo.Arguments = "-b \"org.mustbe.consulo\"";
+		proc.StartInfo.UseShellExecute = false;
+		proc.StartInfo.RedirectStandardOutput = true;
+		proc.Start();
 	}
 
     static bool IsOnAMac()
