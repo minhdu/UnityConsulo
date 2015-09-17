@@ -13,6 +13,5 @@ https://github.com/consulo/consulo-unity3d/wiki/1.-Setup-and-Usage
 - Now you can open your project by access: "File->Open Project in Consulo"
 - For OSX User: You can open correct line of script by double click on Unity Debug Console as Window version without any setup!
 
-*Know issues: Consulo now open but not focus, please click on Consulo icon on dock to focus it!
-
-*This plugin base on UniVSCode of @robin7331 at https://github.com/robin7331/UniVSCode
+*This plugin has reference from UniVSCode of @robin7331 at https://github.com/robin7331/UniVSCode
+*Thank @arshak93 who was enhance and fix focus problem for this tool!
